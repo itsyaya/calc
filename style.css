@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: hsl(40, 19%, 48%); */
+    background-image: url("https://i.pinimg.com/550x/50/5e/e6/505ee6c266be70fa41ce617bc33e2226.jpg");
+}
+
+
+#calculator {
+    background-color: hsl(0, 0%, 15%);
+    font-family:'Gill Sans', arial, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    background-color: rgb(208, 201, 201);
+    border: 5px solid rgb(2, 130, 250);
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.operation-btn {
+    background-color: rgb(251, 180, 49);
+
+}
+.operation-btn:hover {
+    background-color: rgb(214, 170, 88);
+
+}
+.operation-btn:active {
+    background-color: rgb(252, 234, 199);
+
+}
+
+.equal {
+    background-color: rgb(11, 162, 11);
+}
+
+.equal:hover {
+    background-color: rgb(7, 80, 7);
+}
+.equal:active {
+    background-color: rgb(92, 146, 92);
+}
+
+.clear {
+    background-color: rgb(255, 125, 125);
+}
+.clear:hover {
+    background-color: rgb(161, 111, 111);
+}
+.clear:active {
+    background-color: rgb(194, 179, 179);
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 13%, 80%)
+}
+
+.ac {
+    background-color: rgb(240, 1, 1);
+}
+.ac:hover {
+    background-color: rgb(234, 74, 74);
+}
+.ac:active {
+    background-color: rgb(134, 108, 108);
+}
