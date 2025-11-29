@@ -17,13 +17,3 @@ function calculate() {
 function clearDisplay() {
     display.value = "";
 }
-
-
-
-// Calculator App
-
-
-// I need to creat three, (3) funcitons
-// one for append to display
-// sencond for Calculate
-// third for clearDisplay
